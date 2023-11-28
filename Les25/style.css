@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(101, 97, 97, 0.45),
+      rgba(145, 142, 142, 0.45)
+    ),
+    url(img/hemel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+  font-family: "Lora", Times, serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background-color: rgba(101, 97, 97, 0.45);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+  color: rgb(247, 247, 244);
+  background: rgba(20, 12, 2, 0.974);
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 0.2rem 1rem 0.1rem rgb(237, 237, 230);
+
+}
+
+.knoppen{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1000px) {
+    .text-container{
+        margin:auto 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        ;
+    }
+
+    .quote-text{
+        font-size: 2.5rem;
+    }
+}
